@@ -1,3 +1,39 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soltis Lab 5</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <h1>Lab 5 html</h1>
+      </header>
+      <div class="container">
+        <div class="left_section box">
+            <h3>Form Inputs</h3>
+          <form action="/api" class="box">
+          <label for="resto"></label>
+          <input type="text" name="resto" id="resto" />
+          <button type="submit">submit</button>         
+        </form>
+        </div>
+        <div class="right_section box">
+          <h3>Local Restaraunts</h3>
+          <div class="restaurant_list box">Marathon 
+                                           Qu japan
+                                           Nandos
+                                           Chipotle
+          </div>
+    </div>
+    </div>
+    <footer class="footer">
+        
+    <script src="./script.js"></script>
+  </body>
+</html>
 <!-- Bring in your successful HTML/CSS from the Flexbox lab -->
 <!-- Your page will need a form in it with an 'action' to /api and a single text field with an id/name of "resto" -->
 <!-- If you open /routes/apiRoutes and go to line 38 you will find the server side answer to your request! -->
