@@ -1,0 +1,39 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soltis Lab 6</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <h1>Lab 6 Data processing and HTMl injection</h1>
+      </header>
+      <div class="container">
+        <div class="left_section box">
+            <h3>Form Inputs</h3>
+          <form action="/api" class="box main_form">
+          <label for="resto"></label>
+          <input type="text" name="resto" id="resto" />
+          <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+          <button type="submit" id ="get-resto">Submit</button>         
+        </form>
+        </div>
+        <div class="right_section box">
+          <h3>Local Restaurants</h3>
+          <div class="box" id = "restaurant_list">
+          </div>
+    </div>
+    </div>
+    <footer class="footer">
+        SOLTIS007
+        <a href="https://github.com/Soltis007">Soltis007</a>
+        </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
